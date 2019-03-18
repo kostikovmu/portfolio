@@ -1,24 +1,54 @@
 @font-face {
-  font-family: "GothamPro";
-  src: url("../../fonts/GothamPro.ttf") format("truetype");
+  font-family: "Sansus-Webissimo-Regular";
+  src: url("../../fonts/Sansus-Webissimo-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "GothamPro-Bold";
-  src: url("../../fonts/GothamPro-Bold.ttf") format("truetype");
+  font-family: "Roboto-Regular";
+  src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../../fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "GothamPro-Black";
-  src: url("../../fonts/GothamPro-Black.ttf") format("truetype");
-  font-weight: 900;
+  font-family: "Roboto-BoldItalic";
+  src: url("../../fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("../../fonts/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "GothamPro-Light";
-  src: url("../../fonts/GothamPro-Light.ttf") format("truetype");
+  font-family: "Roboto-MediumItalic";
+  src: url("../../fonts/Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("../../fonts/Roboto-Italic.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url("../../fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
 }

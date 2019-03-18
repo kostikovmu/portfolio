@@ -1,6 +1,6 @@
 # My portfolio web page
 
-##To start
+## To start
 
 ### Use command in your work folder
 
