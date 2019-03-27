@@ -1,3 +1,62 @@
-body {
-  background-color: #969696;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.section-title, .section-sub-title {
+  font-family: $ff-main-additional;
+  position: relative;
+
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 89px;
+    background-color: $c-main;
+    @include horizontal-center();
+    bottom: -10px;
+  }
+}
+
+.section-title {
+  font-size: $fz-title;
+  margin: 0 70px;
+  color: $c-main;
+}
+
+.section-sub-title {
+  font-size: $fz-sub-title;
+  margin: 0 40px;
+  color: $c-additional;
+
+  &:after {
+    background-color: $c-additional;
+  }
+}
+
+.social-icons {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+// Экстрамалые девайсы («телефоны», < 576px)
+@media (max-width: 575.98px) {}
+
+// Малые девайсы («ландшафтные», < 768px)
+@media (max-width: 767.98px) {}
+
+// Средние девайсы («таблетки», < 992px)
+@media (max-width: 991.98px) {}
+
+// Большие девайсы (большие десктопы, < 1200px)
+@media (max-width: 1199.98px) {}

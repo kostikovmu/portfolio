@@ -1,16 +1,22 @@
 /*FONTS*/
 
-$ff-main: "GothamPro";
-$ff-main-Bold: "GothamPro-Bold";
-$ff-main-Black: "GothamPro-Black";
-$ff-main-light: "GothamPro-Light";
+$ff-main: "Roboto-Regular";
+$ff-main-additional: "Sansus-Webissimo-Regular";
+$ff-main-Bold: "Roboto-Bold";
+$ff-main-Italic: "Roboto-Italic";
+$ff-main-Medium: "GothamPro-Medium";
 
 /*FONTS-COLOR*/
-$c-main: #1d2029;
-$c-description: #7a7a7a;
-$c-additional: #c4acc5;
-$c-secondary: #7fa6c0;
+$c-main: #363e42;
+$c-main-on-focus: #ffffff;
+$c-additional: #566358;
+$c-accent: #4e8839;
+$c-accent-dull: #6c9c5a;
+$c-link: #6da3bd;
+$c-attention: #e34844;
 
-/*BACKGROUND-COLOR*/
+/*FONTS-SIZE*/
 
-$bg-main: #625999;
+$fz-main: 16px;
+$fz-sub-title: 35px;
+$fz-title: 63px;
