@@ -1,0 +1,20 @@
+-
+  var list = [
+    'Мои работы',
+    'Блог',
+    'Обо мне',
+    'Авторизация'
+  ]
+
+  var links = [
+    'works',
+    'blog',
+    'aboutMe',
+    'authorization'
+  ]
+
+nav.nav: ul.nav__list
+  for item, index in list
+    li.nav__item
+      a.nav__link(href= links[index])= item
+

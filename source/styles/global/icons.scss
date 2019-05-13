@@ -6,3 +6,23 @@
   color: red;
 }
 
+.icon_social {
+  color: #fffa90;
+  margin-right: 30px;
+  font-size: 30px;
+  transition: color .3s;
+  cursor: pointer;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    color: $c-accent;
+  }
+}
+
+.icon-vk {
+  font-size: 17px;
+}
+
